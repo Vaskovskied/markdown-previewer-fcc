@@ -11,10 +11,3 @@
 .textarea:focus {
   outline: none;
 }
-
-/* @media screen and (max-width: 860px) {
-  .textarea {
-    height: 40%;
-    width: 100%;
-  }
-} */

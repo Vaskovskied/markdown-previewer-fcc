@@ -3,7 +3,6 @@ import DragResizer from '../DragResizer/DragResizer'
 import Editor from '../Editor/Editor'
 import Preview from '../Preview/Preview'
 import cl from './MarkdownPreviewer.module.css'
-// import useWindowDimensions from '../../hooks/useWindowDimensions/useWindowDimensions';
 import { marked } from 'marked'
 
 marked.setOptions({
@@ -62,17 +61,11 @@ And here. | Okay. | I think we get it.
 ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)`;
 
   const [editorValue, setEditorValue] = useState(editorValueDefault);
-
-  // const { width } = useWindowDimensions();
-
-
   const onPointerDown = (e) => {
-    // const userPos = window.innerWidth > 860 ? e.clientX : e.clientY
     separatorPosition.current = e.clientX;
   };
 
   const onPointerMove = (e) => {
-    // const userPos = window.innerWidth > 860 ? e.clientX : e.clientY
     if (!separatorPosition.current) {
       return;
     }

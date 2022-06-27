@@ -16,15 +16,3 @@
   background-color: #fff;
   border-radius: 16px;
 }
-
-/* @media screen and (max-width: 860px) {
-  .resizer {
-    height: 0.6rem;
-    width: 100%;
-  }
-
-  .resizer > div {
-    height: 50%;
-    width: 5vh;
-  }
-} */
