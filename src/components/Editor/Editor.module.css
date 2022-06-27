@@ -1,0 +1,20 @@
+.textarea {
+  height: 100%;
+  width: 40%;
+  resize: none;
+  font-size: 1rem;
+  padding: 1.5rem 2rem;
+  border: none;
+  flex: none;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+/* @media screen and (max-width: 860px) {
+  .textarea {
+    height: 40%;
+    width: 100%;
+  }
+} */

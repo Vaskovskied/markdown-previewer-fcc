@@ -1,0 +1,16 @@
+.previewer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* @media screen and (max-width: 860px) {
+  .previewer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+} */

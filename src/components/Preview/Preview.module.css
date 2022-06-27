@@ -1,0 +1,67 @@
+.preview {
+  width: calc(60vw - 1rem);
+  font-size: 18px;
+  height: 100%;
+  padding: 1.5rem 2rem;
+  flex: auto;
+  overflow: auto;
+}
+
+.preview p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+pre {
+  margin: 0.5rem 0;
+}
+
+.preview img {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.preview blockquote {
+  border-left: 2px solid #000;
+  padding-left: 0.5rem;
+}
+
+.preview a {
+  color: blue;
+}
+
+.preview code,
+pre {
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.preview pre {
+  padding: 1rem;
+}
+
+.preview code {
+  padding: 0 0.5rem;
+}
+
+.preview table {
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+}
+
+.preview table th,
+td {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+/* @media screen and (max-width: 860px) {
+  .preview {
+    width: 100%;
+    height: calc(60vw - 0.6rem);
+  }
+} */
