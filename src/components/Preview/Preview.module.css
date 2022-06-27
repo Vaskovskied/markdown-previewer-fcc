@@ -20,6 +20,11 @@ pre {
   margin: 0.5rem 0;
 }
 
+.preview ul,
+ol {
+  margin-left: 18px;
+}
+
 .preview img {
   max-width: 100%;
   padding: 1rem;
