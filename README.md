@@ -1,1 +1,1 @@
-# It's working terrible on mobile devices. Don't even try to use it!
+# It's working terrible on mobile devices. Don't even try to use it this way!
