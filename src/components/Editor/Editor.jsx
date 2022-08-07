@@ -15,6 +15,7 @@ export default function Editor() {
       className={cl.editor}
       value={editorValue}
       onChange={onChangeHandler}
+      spellcheck="false"
     />
   );
 }
