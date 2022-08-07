@@ -1,10 +1,10 @@
 import "./styles/App.css";
-import { MarkdownPreviewer } from "./components/MarkdownPreviewer/MarkdownPreviewer";
+import MarkdownPreviewer from "./components/MarkdownPreviewer/MarkdownPreviewer";
 
 function App() {
   return (
     <div className="App">
-      <MarkdownPreviewer/>
+      <MarkdownPreviewer />
     </div>
   );
 }

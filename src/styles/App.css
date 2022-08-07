@@ -10,12 +10,17 @@ html {
 }
 
 html,
-body {
+body,
+#root {
   height: 100%;
   width: 100%;
 }
 
 .App {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+}
+
+#fcc_test_suite_wrapper {
+  display: none;
 }
