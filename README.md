@@ -1,4 +1,5 @@
-# React.js markdown previewer made for freeCodeCamp's Front End Development Libraries certification
+# React.js markdown previewer
+Made for freeCodeCamp's Front End Development Libraries certification
 ### [VIEW AND TEST IT HERE](https://vaskovskied.github.io/markdown-previewer-fcc/)
 
 ### Stack:  
